@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require "pry"
 attendees =  ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
@@ -27,3 +28,24 @@ def printer(attendees)
     puts room_assignments
   end
 end
+=======
+def badge_maker(name)
+  puts "Hello, my name is #{name}"
+end
+
+def batch_badge_creator(names)
+  names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+counter = 1
+names.each do |name|
+  puts "Hello, #{name}!"
+  puts "You'll be assigned to room #{counter}!"
+  counter += 1
+ end
+end
+
+def assign_rooms(room)
+  puts "Hello, #{name}! You'll be assigned to room #{room}!"
+end
+
+# ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+>>>>>>> 30d000cfa041aeb5182358cb1a82b2eb8d136e7c
